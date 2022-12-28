@@ -11,12 +11,12 @@
 
 This site has been created for a coding test. 
 
-## 🎮 Project Overview
+## 🏡 Project Overview
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/47388675/80098162-b520a880-856c-11ea-86f7-066eb0bc5a6b.gif">
+  <img width="700" src="https://github.com/quentintrouve/casavo-my-agency/blob/main/public/overview.png">
 </p>
 
-**Casavo** is a reat estte web agency build from a file of customers. It's a React.js project bootstrapped with `create-react-app` and using TypeScript.
+**Casavo** is a real estate web agency build from a file of customers. It's a React.js project bootstrapped with `create-react-app` and using TypeScript.
 
 Time to dev: **5h**
 
