@@ -1,0 +1,6 @@
+@import '../../styles/theme.scss';
+
+.searchResults {
+  @include typo-heading-h5;
+  margin-top: 2.4rem;
+}

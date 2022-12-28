@@ -1,0 +1,49 @@
+@mixin typo-heading-h1 {
+  font-family: $font-inter, Arial;
+  font-size: 4.6rem;
+  font-weight: 100;
+  line-height: 6.2rem;
+}
+
+@mixin typo-heading-h4 {
+  font-family: $font-inter, Arial;
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 2.9rem;
+}
+
+@mixin typo-heading-h5 {
+  font-family: $font-inter, Arial;
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 2rem;
+}
+
+@mixin typo-paragraph {
+  font-family: $font-inter, Arial;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.4rem;
+}
+
+@mixin typo-label {
+  font-family: $font-inter, Arial;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+}
+
+@mixin input {
+  width: 100%;
+  height: 3.2rem;
+  padding: 0.8rem;
+  background-color: $color-white;
+  border: 2px solid $color-black;
+  border-radius: $border-radius-input;
+  outline: none;
+  font-family: $font-inter, Arial;
+
+  &:focus {
+    border-color: $color-orange;
+  }
+}

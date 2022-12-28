@@ -1,0 +1,44 @@
+@import '../../styles/theme.scss';
+
+.hero {
+  display: flex;
+  justify-content: center;
+  background-color: $color-orange;
+  padding: 3.2rem 0;
+
+  &__container {
+    display: flex;
+    gap: 8rem;
+    margin: 0px auto;
+    max-width: 1294px;
+  }
+
+  &__contentText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-right: 6rem;
+
+    h1 {
+      @include typo-heading-h1;
+      color: $color-black;
+      text-align: start;
+    }
+  
+    h4 {
+      @include typo-heading-h4;
+      text-align: end;
+      margin-top: 5.6rem;
+    }
+  }
+  
+  &__contentImg {
+    width: 70%;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+}

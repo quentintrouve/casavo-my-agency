@@ -1,0 +1,34 @@
+@import '../../styles//theme.scss';
+
+.customerCard {
+  background-color: $color-grey-bg;
+  border: 1px solid $color-grey-border;
+  border-radius: $border-radius-card;
+  padding: 3.2rem;
+
+  &__name {
+    @include typo-heading-h4;
+  }
+
+  &__id {
+    @include typo-heading-h5;
+    color: $color-grey-text;
+    margin-top: 0.8rem;
+  }
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+    span {
+      @include typo-label;
+      text-decoration: underline;
+      margin-top: 1.6rem;
+    }
+
+    li {
+      @include typo-paragraph;
+    }
+  }
+}

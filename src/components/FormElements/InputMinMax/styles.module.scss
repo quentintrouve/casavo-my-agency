@@ -1,0 +1,21 @@
+@import '../../../styles//theme.scss';
+
+.inputMinMax {
+  display: flex;
+  flex-direction: column;
+
+  &__label {
+    @include typo-label;
+    display: block;
+    margin-bottom: 0.8rem
+  }
+
+  &__inputsContainer {
+    display: flex;
+    gap: 1.6rem;
+  }
+
+  &__input {
+    @include input;
+  }
+}

@@ -1,0 +1,14 @@
+@import '../../../styles//theme.scss';
+
+.inputNumber {
+  
+  &__label {
+    @include typo-label;
+    display: block;
+    margin-bottom: 0.8rem
+  }
+
+  &__input {
+    @include input;
+  }
+}
