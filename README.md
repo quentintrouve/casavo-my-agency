@@ -18,9 +18,13 @@ Clone the repository, and install the dependancies.
 git clone $url
 ```
 
+or download the source code (.zip) from the [last release](https://github.com/quentintrouve/casavo-my-agency/releases/tag/V1.0.0).
+
 ```
 cd casavo-my-agency
 ```
+
+Install the dependancies.
 
 ```
 npm install
@@ -40,7 +44,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 ## 🔨 Built with
 
 Reactjs - [documentation](https://reactjs.org/)\
-Typescript - [documentation](https://www.typescriptlang.org/docs/)\
+Typescript - [documentation](https://www.typescriptlang.org/docs/)
 
 ## 🎨 Styling with
 
@@ -49,4 +53,4 @@ CSS Modules - [css modules](https://create-react-app.dev/docs/adding-a-css-modul
 
 ## 👥 Contributers
 
-Quentin Trouvé - [quentintrouve](https://github.com/quentintrouve)\
+Quentin Trouvé - [quentintrouve](https://github.com/quentintrouve)
