@@ -24,7 +24,7 @@ Time to dev: **5h**
 
 ### Installing
 
-Clone the repository, and install the dependancies or download the source code (.zip) from the [last release](https://github.com/quentintrouve/casavo-my-agency/releases/tag/V1.0.0).
+Clone the repository, and install the dependancies or download the source code (.zip) from the [last release](https://github.com/quentintrouve/casavo-my-agency/releases/tag/V1.0.1).
 
 ```
 git clone $url
